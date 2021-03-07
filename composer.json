@@ -21,7 +21,7 @@
         "fakerphp/faker": "^1.9.1",
         "mockery/mockery": "^1.4.2",
         "nunomaduro/collision": "^5.0",
-        "osteel/openapi-httpfoundation-testing": "^0.1.0@alpha",
+        "osteel/openapi-httpfoundation-testing": "^0.3",
         "phpunit/phpunit": "^9.3.3"
     },
     "config": {
