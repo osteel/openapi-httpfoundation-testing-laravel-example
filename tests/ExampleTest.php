@@ -2,7 +2,7 @@
 
 namespace Tests;
 
-use Osteel\OpenApi\Testing\Response\ResponseValidatorBuilder;
+use Osteel\OpenApi\Testing\ValidatorBuilder;
 
 class ExampleTest extends TestCase
 {
@@ -15,7 +15,7 @@ class ExampleTest extends TestCase
     {
         $response = $this->get('/api/test');
 
-        $validator = ResponseValidatorBuilder::fromYaml(storage_path('api-docs/api-docs.yaml'))->getValidator();
+        $validator = ValidatorBuilder::fromYaml(storage_path('api-docs/api-docs.yaml'))->getValidator();
 
         $result = $validator->get($response->baseResponse, '/test');
 
