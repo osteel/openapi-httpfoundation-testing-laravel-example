@@ -28,9 +28,9 @@ Start the PHP development server using Laravel's Artisan command:
 $ php artisan serve
 ```
 
-Swagger UI should now be available at [localhost:8000/api/documentation](http://localhost:8000/api/documentation) (you might need to replace `api-docs.json` with `api-docs.yaml` in the "explore" bar at the top, so it loads the [YAML definition](https://github.com/osteel/openapi-httpfoundation-testing-laravel-example/blob/basic/storage/api-docs/api-docs.yaml) instead of the JSON one, that we haven't provided).
+Swagger UI should now be available at [localhost:8000/api/documentation](http://localhost:8000/api/documentation) (you might need to replace `api-docs.json` with `api-docs.yaml` in the "explore" bar at the top, so it loads the [YAML definition](https://github.com/osteel/openapi-httpfoundation-testing-laravel-example/blob/main/storage/api-docs/api-docs.yaml) instead of the JSON one, that we haven't provided).
 
-There is an [example test](https://github.com/osteel/openapi-httpfoundation-testing-laravel-example/blob/basic/tests/ExampleTest.php) which you can run:
+There is an [example test](https://github.com/osteel/openapi-httpfoundation-testing-laravel-example/blob/main/tests/ExampleTest.php) which you can run:
 
 ```bash
 $ composer test
