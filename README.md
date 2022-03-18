@@ -1,4 +1,4 @@
-# OpenAPI HttpFoundation Testing: a Laravel Example
+# OpenAPI HttpFoundation Testing – a Laravel Example
 
 This repository demonstrates how to use the [OpenAPI HttpFoundation Testing](https://github.com/osteel/openapi-httpfoundation-testing) package in a Laravel project.
 
@@ -6,7 +6,7 @@ It uses [L5 Swagger](https://github.com/DarkaOnLine/L5-Swagger) to expose an Ope
 
 Please refer to [this blog post](https://tech.osteel.me/posts/openapi-backed-api-testing-in-php-projects-a-laravel-example "OpenAPI-backed API testing in PHP projects – a Laravel example") for a detailed explanation.
 
-## Install
+## Instal
 
 Clone the repository:
 
@@ -14,7 +14,7 @@ Clone the repository:
 $ git clone git@github.com:osteel/openapi-httpfoundation-testing-laravel-example.git
 ```
 
-Install the project's dependencies from the root folder:
+Instal the project's dependencies from the root folder:
 
 ```bash
 $ composer install
@@ -33,7 +33,7 @@ Swagger UI should now be available at [localhost:8000/api/documentation](http://
 There is an [example test](https://github.com/osteel/openapi-httpfoundation-testing-laravel-example/blob/main/tests/ExampleTest.php) which you can run:
 
 ```bash
-$ composer test
+$ ./vendor/bin/phpunit tests/Feature
 ```
 
 This test queries the `/api/test` endpoint and validates the response against the provided YAML OpenAPI definition.
