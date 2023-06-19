@@ -6,7 +6,7 @@ It uses [L5 Swagger](https://github.com/DarkaOnLine/L5-Swagger) to expose an Ope
 
 Please refer to [this blog post](https://tech.osteel.me/posts/openapi-backed-api-testing-in-php-projects-a-laravel-example "OpenAPI-backed API testing in PHP projects – a Laravel example") for a detailed explanation.
 
-## Instal
+## Installation
 
 Clone the repository:
 

@@ -16,7 +16,7 @@ class ExampleTest extends TestCase
     {
         $response = $this->get('/api/test');
 
-        $validator = ValidatorBuilder::fromYaml(storage_path('api-docs/api-docs.yaml'))->getValidator();
+        $validator = ValidatorBuilder::fromYamlFile(storage_path('api-docs/api-docs.yaml'))->getValidator();
 
         $result = $validator->validate($response->baseResponse, '/test', 'get');
 
